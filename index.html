@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title class="title">Hada Design System</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+
+    <nav id="navbar">
+        <header>Hada UI</header>
+        <a href="#Introduction" class="nav-link">Introduction</a>
+        <a href="#Color_Palette" class="nav-link">Color Palette</a>
+        <a href="#Typography" class="nav-link">Typography</a>
+        <a href="#Buttons_&_Interactions" class="nav-link">Buttons & Interactions</a>
+        <a href="#Forms_&_Inputs" class="nav-link">Forms & Inputs</a>
+        <a href="#Spacing_&_Layout" class="nav-link">Spacing & Layout</a>
+    </nav>
+
+    <main id="main-doc">
+        <section class="main-section" id="Introduction">
+            <header>Introduction</header>
+            <p>Welcome to Hada Design System. This guide outlines the design principles, components, and style rules used in our interfaces.</p>
+            <p>Use this documentation to ensure consistency and alignment across products using the Hada brand.</p>
+        </section>
+
+        <section class="main-section" id="Color_Palette">
+            <header>Color_Palette</header>
+            <p>The Hada color palette defines the visual identity of the brand. It consists of primary, secondary, and neutral tones.</p>
+            <p>These colors ensure readability, accessibility, and aesthetic harmony across all UI elements.</p>
+            <ul>
+                <li>Primary: #4A90E2 (blue)</li>
+                <li>Accent: #F5A623 (orange)</li>
+                <li>Neutral: #F0F2F5 (light gray)</li>
+            </ul>
+            <code>background-color: #4A90E2;</code>
+            <code>color: #FFFFFF;</code>
+        </section>
+
+        <section class="main-section" id="Typography">
+            <header>Typography</header>
+             <p>Typography in Hada is designed for clarity and readability. The base typeface is clean, modern, and web-safe.</p>
+             <p>Font sizes follow a consistent scale to ensure visual hierarchy across text content.</p>
+             <ul>
+                <li>Font family: "Inter", sans-serif</li>
+                <li>Base font size: 16px</li>
+                <li>Heading scale: 1.25x multiplier</li>
+            </ul>
+            <code>font-family: 'Inter', sans-serif;</code>
+            <code>font-size: 1rem;</code>
+        </section>
+
+         <section class="main-section" id="Buttons_&_Interactions">
+            <header>Buttons & Interactions</header>
+            <p>Buttons are essential UI components that trigger actions. Each button style should follow the Hada guidelines.</p>
+            <p>Buttons must have clear states: default, hover, active, and disabled.</p>
+            <ul>
+                <li>Primary button</li>
+                <li>Secondary button</li>
+                <li>Ghost button</li>
+            </ul>
+            <code>.btn-primary { background: #4A90E2; color: white; }</code>
+            <code>.btn-disabled { opacity: 0.5; cursor: not-allowed; }</code>
+        </section>
+
+        <section class="main-section" id="Forms_&_Inputs">
+            <header>Forms & Inputs</header>
+            <p>Form elements include input fields, checkboxes, radio buttons, and select menus.</p>
+            <p>Labels must always be associated with form fields to ensure accessibility.</p>
+            <ul>
+                <li>Text input</li>
+                <li>Email input</li>
+                <li>Password input</li>
+            </ul>
+            <code>&lt;input type="email" placeholder="you@example.com" /&gt;</code>
+            <code>&lt;label for="name"&gt;Name&lt;/label&gt;</code>
+        </section>
+
+        <section class="main-section" id="Spacing_&_Layout">
+        <header>Spacing & Layout</header>
+        <p>Hada uses a 4px spacing scale to create rhythm and visual alignment.</p>
+        <p>Layout is built using a combination of CSS Flexbox and Grid for flexible structure.</p>
+            <ul>
+                <li>Spacing unit: 4px</li>
+                <li>Container max width: 1200px</li>
+                <li>Breakpoints: 768px, 1024px</li>
+            </ul>
+            <code>margin: 16px;</code>
+            <code>display: grid;</code>
+        </section>
+    </main>
+</body>
+</html>
